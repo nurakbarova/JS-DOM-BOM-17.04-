@@ -2,7 +2,7 @@ let cards = document.querySelector("cards")
 let body=document.querySelector("body")
 
 
-cards.forEach(card => {
+cards.forEach(item => {
    cards.innerHTML+=`<div class="card" style="width: 18rem;">
    <img class="card-img-top" src="..." alt="Card image cap">
    <div class="card-body">
@@ -13,3 +13,13 @@ cards.forEach(card => {
  </div>`
 });
 body.append("cards")
+
+
+// let body=document.querySelector("body")
+// let card=document.querySelector(
+// <div class="card-body">
+//   <h5 class="card-title">Card title</h5>
+//   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+//   <a href="#" class="btn btn-primary">Go somewhere</a>
+// </div>)
+// body.append(card)
